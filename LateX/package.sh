@@ -35,6 +35,6 @@ then
 fi
 
 sudo mkdir $filename
-sudo cp $filesty /usr/share/texlive/texmf-dist/tex/latex
+sudo cp $filesty /usr/share/texlive/texmf-dist/tex/latex/$filename
 sudo mktexlsr /usr/share/texlive/texmf-dist/tex/latex
 echo "Package $filename successfully installed"

@@ -1,0 +1,10 @@
+# Fichiers générés par la compilation LateX
+*.aux
+*.log
+*.toc
+
+# Fichiers utilisés pour les paquets LateX
+*.sty
+*.dtx
+*.ins
+*.cfg
